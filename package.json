@@ -1,0 +1,19 @@
+{
+  "name": "dstv-vehicle-inspection",
+  "version": "1.0.0",
+  "description": "DSTV Tanzania Vehicle Inspection System",
+  "scripts": {
+    "dev": "python3 -m http.server 3000",
+    "build": "mkdir -p public && cp index.html public/",
+    "start": "python3 -m http.server 3000"
+  },
+  "keywords": ["vehicle", "inspection", "dstv", "tanzania"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@vercel/static-build": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
